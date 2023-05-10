@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: rgba(255, 0, 0, 0.781);
+  
+}
+
+
+body {
+  background: rgba(224, 230, 231, 0.753);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.pokemonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  
+  
+}
+
+.imgContainer {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.pokemon {
+
+  border-radius: 10px;
+  padding:20px;
+  margin: 10px;
+  text-align: center;
+  background: #e5ffb5;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.imgContainer img {
+  max-width: 90%;
+}
+
+.info {
+
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.number { 
+  background: rgba(104, 101, 101, 0.301);
+  padding: 2px 13px;
+  border-radius: 10px;
+  
+}
+
+.name{
+
+  margin-top: 10px;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.tipo {
+
+  margin-top: 40px;
+  letter-spacing: 1px;
+}
